@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(anh/hedder.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: arial;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav {
+    height: 60px;
+    background: rgb(6, 76, 162);
+    margin-bottom: 0px;
+}
+
+.abc {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.menu>li a {
+    display: block;
+
+}
+
+.menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.menu ul li {
+    width: 300px;
+    background: rgb(6, 76, 162);
+    border-top: 2px solid white;
+}
+
+.menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+body {
+    font-family: arial;
+    color: black;
+    background-color: rgb(241, 238, 238);
+
+}
+
+nav {
+    height: 60px;
+    background: rgb(6, 76, 162);
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 25px;
+    position: relative;
+    border-right: 1px solid white;
+
+}
+
+nav ul li:hover {
+    background: rgb(190, 132, 132);
+    font-weight: bolder;
+    transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -webkit-transition: ease-in 0.25s;
+}
+
+.menu li:hover>ul {
+    display: block;
+    transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -webkit-transition: ease-in 0.25s;
+}
+
+.chuchay {
+    height: 30px;
+    background-color: rgb(131, 253, 87);
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+nav .timkiem {
+    float: right;
+    line-height: 60px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav .timkiem input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+nav .timkiem button {
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: rgb(105, 105, 181);
+    color: #fff;
+    margin-left: -5px;
+    border-radius: 5px;
+
+}
+
+article {
+    margin: 70px 300px;
+    height: 700px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.contener-small img {
+    float: left;
+}
+
+.contener-small h1 {
+    width: 300px;
+    background-color: rgb(255, 189, 160);
+    height: 50px;
+    margin: auto;
+    border-radius: 500px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.contener-small-cap {
+    border: 1px solid rgb(184, 178, 178);
+    width: 500px;
+    height: 300px;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-top: 100px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.contener-small-cap p {
+    margin-left: 20px;
+    text-indent: 20px;
+}
+
+.contener-small-cap-h3 {
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    text-indent: 30px;
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(223, 221, 221);
+    border-bottom: 1px solid rgb(184, 178, 178);
+}
+
+.contener-small-cap-p1 {
+    border-top: 1px solid rgb(184, 178, 178);
+    padding: 16.5px 10px;
+}
+
+.bando {
+    margin-left: 80px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.contener-small-p {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(92, 92, 104, 0.25) 0px 30px 60px -12px inset, rgba(179, 170, 170, 0.3) 0px 18px 10px -18px inset;
+}
+
+iframe:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+footer {
+    height: 300px;
+    clear: both;
+
+}
+
+.logo {
+    padding: 40px 0 0 300px;
+    background-color: rgb(6, 76, 162);
+}
+.logo {
+    display: flex;
+
+}
+
+.chuf {
+    padding: 50px 0 0 50px;
+}
+
+.chuf p {
+    padding-top: 10px;
+    font-size: 30px;
+}
+.logo2{
+    clear: both;
+    padding: 70px 0 0 100px;
+}
+.logo2 img{
+    border-radius: 100%;
+}
+.logo3{
+    padding: 70px 0 0 50px;
+}
+.logo3 img{
+    border-radius: 100%;
+}

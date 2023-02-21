@@ -1,0 +1,444 @@
+header {
+    background-image: url(anh/hedder.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.menu>li a {
+    display: block;
+    
+    
+}
+.menu ul{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+.menu ul li{
+    width: 300px;
+    background: rgb(6, 76, 162);
+    border-top:2px solid white ;
+}
+.menu ul ul{
+    top: 0;
+    left: 100%;
+}
+body {
+    font-family: arial;
+    color: black;
+    background-color: rgb(235, 241, 239);
+
+}
+nav {
+    height: 60px;
+    background: rgb(6, 76, 162);
+    margin-bottom: 0px; 
+}
+
+nav ul {
+    list-style: none;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 25px;
+    position: relative;
+    border-right:1px solid white ;
+
+}
+
+nav ul li:hover {
+    background: rgb(190, 132, 132);
+    font-weight: bolder;
+    transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -webkit-transition: ease-in 0.25s;
+}
+nav ul li
+.menu li:hover>ul{
+    display: block;
+    transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -webkit-transition: ease-in 0.25s;
+}
+.chuchay{
+    height: 30px;
+    background-color: rgb(131, 253, 87);
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+nav .timkiem {
+    float: right;
+    line-height: 60px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav .timkiem input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+nav .timkiem button {
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: rgb(105, 105, 181);
+    color: #fff;
+    margin-left: -5px;
+    border-radius: 5px;
+
+}
+
+.abc {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+article img {
+    width: 120%;
+    height: 600px;
+    border: 30px solid rgb(242, 207, 207);
+    border-radius: 4px;
+}
+article {
+    padding: 0 100px;
+}
+
+aside ul {
+    float: right;
+    width: 25%;
+    padding: 10px 0 0 40px;
+    height: 600px;
+    line-height: 100px;
+    text-align: center;
+}
+aside ul h2{
+    margin-top: 40px;
+    height: 100px;
+}
+aside .asi1 {
+    text-align: left;
+    line-height: 20px;
+    margin-top: 20px;
+    text-indent: 10px;
+}
+aside .asi1>img {
+    float: left;
+    height: 100px;
+}
+aside p {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.anhlon {
+    float: left;
+
+}
+.noidung ul li {
+    list-style: none;
+}
+.noidung h2 {
+    background-color: rgb(6, 76, 162);
+
+}
+.bnoidung {
+    margin-bottom: 30px;
+}
+.noidung {
+    padding: 0 100px;
+}
+.tieude1 {
+    clear: both;
+    background-color: rgb(231, 125, 59);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 0 80px 80px 0;
+    margin-top: 20px;
+}
+.tieude1 h2 {
+    line-height: 70px;
+}
+
+.btieude {
+    padding-top: 30px;
+    padding-left: 70px;
+
+}
+
+.anh1 {
+    padding: 50px 0px 0px 100px;
+    float: left;
+
+}
+
+.anh1 img {
+    width: 400px;
+    border-radius: 40px;
+    height: 350px;
+}
+
+.tonhat {
+    padding-top: 300px;
+}
+
+.ndp>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp p {
+    font-size: 25px;
+    line-height: 40px;
+    text-indent: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ndp1>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp1 p {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ndp2>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+
+}
+
+.ndp2 p {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.phan2 {
+    float: left;
+}
+
+.hanh2 {
+    margin-top: 50px;
+    width: 300px;
+}
+
+.anh2 {
+    float: left;
+}
+
+.tonhat2 {
+    clear: both;
+    padding-top: 60px;
+}
+
+.tieude2 {
+    background-color: rgb(132, 12, 12);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 0 80px 80px 0;
+}
+
+.tieude2 h2 {
+    line-height: 70px;
+}
+
+.btieude2 {
+    padding-top: 30px;
+    padding-left: 70px;
+
+}
+
+.anh2 img {
+    width: 400px;
+    border-radius: 40px;
+    height: 350px;
+}
+
+.anh2 {
+    padding: 50px 0 0 100px;
+}
+
+.ndp3>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp3 p {
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.ndp4>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp4 p {
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.ndp5>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp5 p {
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.phan3 {
+    float: left;
+}
+
+.tonhat3 {
+    clear: both;
+    padding-top: 60px;
+}
+
+.tieude3 {
+    background-color: rgb(109, 45, 192);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 0 80px 80px 0;
+}
+
+.tieude3 h2 {
+    line-height: 70px;
+}
+
+.btieude3 {
+    padding-top: 30px;
+    padding-left: 70px;
+
+}
+
+.anh3 img {
+    width: 400px;
+    border-radius: 40px;
+    height: 350px;
+}
+
+.anh3 {
+    padding: 50px 0 0 100px;
+    float: left;
+}
+
+.ndp6>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp6 p {
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.ndp7>img {
+    float: left;
+    padding: 10px 30px 0px 40px;
+    height: 120px;
+    width: 200px;
+}
+
+.ndp7 p {
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.phan4 {
+    float: left;
+}
+
+.logo {
+    padding: 40px 0 0 200px;
+    background-color: rgb(6, 76, 162);
+}
+.logo {
+    display: flex;
+
+}
+
+.chuf {
+    padding: 50px 0 0 50px;
+}
+
+.chuf p {
+    padding-top: 10px;
+    font-size: 30px;
+}
+.logo2{
+    clear: both;
+    padding: 70px 0 0 200px;
+    
+}
+.logo2 img{
+    border-radius: 100%;
+}
+.logo3{
+    padding: 70px 0 0 50px;
+}
+.logo3 img{
+    border-radius: 100%;
+}
+
+

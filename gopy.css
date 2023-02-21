@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(anh/hedder.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: arial;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav {
+    height: 60px;
+    background: rgb(6, 76, 162);
+    margin-bottom: 0px;
+}
+
+.abc {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.menu>li a {
+    display: block;
+
+}
+
+.menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.menu ul li {
+    width: 300px;
+    background: rgb(6, 76, 162);
+    border-top: 2px solid white;
+}
+
+.menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+body {
+    font-family: arial;
+    color: black;
+
+}
+
+nav {
+    height: 60px;
+    background: rgb(6, 76, 162);
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 25px;
+    position: relative;
+    border-right: 1px solid white;
+
+}
+
+nav ul li:hover {
+    background: rgb(190, 132, 132);
+    font-weight: bolder;
+    transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -webkit-transition: ease-in 0.25s;
+}
+
+.menu li:hover>ul {
+    display: block;
+    transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -webkit-transition: ease-in 0.25s;
+}
+
+.chuchay {
+    height: 30px;
+    background-color: rgb(131, 253, 87);
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+nav .timkiem {
+    float: right;
+    line-height: 60px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav .timkiem input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+nav .timkiem button {
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: rgb(105, 105, 181);
+    color: #fff;
+    margin-left: -5px;
+    border-radius: 5px;
+
+}
+
+article {
+    width: 960px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.contener {
+    padding: 40px 30px;
+    height: 900px;
+    margin-top: 40px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.contener-write h2 {
+    width: 300px;
+    background-color: aquamarine;
+    height: 50px;
+    margin: auto;
+    border-radius: 500px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.contener-form-small {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+form input {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.contener-form-small textarea {
+    width: 500px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+form {
+    padding: 25px;
+    display: flex;
+}
+.buttom{
+    margin: 120px 0 0 60px;
+}
+.buttom button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(197, 197, 203);
+    border-radius: 10px;
+    float: left;
+    border: none;
+}
+.buttom button a{
+    color: #141010;
+    text-decoration: none;
+}
+.buttom2 button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(197, 197, 203);
+    border-radius: 10px;
+    margin-left: 40px;
+    border: none;
+}
+.buttom2 button a{
+    color: #1f1919;
+    text-decoration: none;
+}
+button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(63, 61, 61, 0.3) 0px 18px 36px -18px inset;
+}
+footer {
+    height: 300px;
+    clear: both;
+
+}
+
+.logo {
+    padding: 40px 0 0 300px;
+    background-color: rgb(6, 76, 162);
+}
+.logo {
+    display: flex;
+
+}
+
+.chuf {
+    padding: 50px 0 0 50px;
+}
+
+.chuf p {
+    padding-top: 10px;
+    font-size: 30px;
+}
+.logo2{
+    clear: both;
+    padding: 70px 0 0 100px;
+}
+.logo2 img{
+    border-radius: 100%;
+}
+.logo3{
+    padding: 70px 0 0 50px;
+}
+.logo3 img{
+    border-radius: 100%;
+}
